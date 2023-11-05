@@ -1,0 +1,223 @@
+.activityChild {
+  position: relative;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.activityItem {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.activityChild1,
+.activityItem {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.activity {
+  position: absolute;
+  top: 407px;
+  left: -7px;
+  width: 406px;
+  height: 81px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.recommendedForYouChild,
+.recommendedForYouInner,
+.recommendedForYouItem {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 90px;
+  height: 135px;
+  object-fit: cover;
+  z-index: 0;
+}
+.recommendedForYouInner,
+.recommendedForYouItem {
+  z-index: 1;
+}
+.recommendedForYouInner {
+  z-index: 2;
+}
+.recommendedForYou1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  left: 46px;
+  z-index: 3;
+}
+.recommendedForYou {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  width: 419px;
+  height: 213px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-22xl) var(--padding-27xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+}
+.iconographyCaesarzkn {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  z-index: 0;
+}
+.iconographyCaesarzkn1,
+.iconographyCaesarzkn2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 1;
+}
+.iconographyCaesarzkn2 {
+  z-index: 2;
+}
+.bottomNavBarChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 74px;
+  left: 35px;
+  width: 38px;
+  height: 4px;
+  z-index: 3;
+}
+.bottomNavBar {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-44xl);
+}
+.bottomNavBarWrapper {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 175.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+}
+.frame {
+  position: absolute;
+  top: 517px;
+  left: -13px;
+  width: 419px;
+  height: 321px;
+  overflow: hidden;
+}
+.frame1,
+.frame2,
+.image5Icon {
+  position: absolute;
+  width: 125px;
+}
+.image5Icon {
+  top: 54px;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 200px;
+  object-fit: cover;
+}
+.frame1,
+.frame2 {
+  top: 68px;
+  left: -195px;
+  height: 254px;
+  overflow: hidden;
+}
+.frame2 {
+  left: 462px;
+}
+.image2Icon,
+.image3Icon,
+.image4Icon {
+  position: absolute;
+  top: 95px;
+  left: 40px;
+  border-radius: var(--br-xs);
+  width: 125px;
+  height: 200px;
+  object-fit: cover;
+}
+.image3Icon,
+.image4Icon {
+  top: 80px;
+  left: 155px;
+  width: 162px;
+  height: 230px;
+}
+.image4Icon {
+  top: 95px;
+  left: 347px;
+  width: 125px;
+  height: 200px;
+  opacity: 0.96;
+}
+.tag {
+  position: absolute;
+  top: 0;
+  left: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 295px;
+  height: 95px;
+}
+.frame3,
+.frame4,
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 472px;
+  height: 310px;
+  overflow: hidden;
+}
+.frame3,
+.frameParent {
+  top: 27px;
+  left: -40px;
+  height: 336px;
+}
+.frameParent {
+  top: 0;
+  left: 0;
+  background: linear-gradient(#25252a, #25252a), #fff;
+  width: 393px;
+  height: 390px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-peachpuff);
+  font-family: var(--font-nico-moji);
+}
+.explore0 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 849px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-arial-rounded-mt-bold);
+}

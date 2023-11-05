@@ -1,0 +1,37 @@
+.screenShot20231105At113,
+.screenShot20231105At114 {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  width: 122px;
+  height: 139px;
+  object-fit: cover;
+}
+.screenShot20231105At114 {
+  top: 173px;
+  left: 7px;
+  width: 54px;
+  height: 51px;
+}
+.screenShot20231104At606,
+.screenShot20231105At111 {
+  position: absolute;
+  top: 173px;
+  left: 122px;
+  width: 343px;
+  height: 49px;
+  object-fit: cover;
+}
+.screenShot20231104At606 {
+  top: 66px;
+  left: 176px;
+  width: 193px;
+  height: 42px;
+}
+.colors {
+  background-color: var(--color-white);
+  width: 677px;
+  height: 261px;
+  overflow: hidden;
+  display: none;
+}

@@ -1,0 +1,19 @@
+.activityChild {
+  border-radius: 50%;
+}
+.activityChild,
+.activityChild1 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.activity {
+  width: 616px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xl) var(--padding-xl);
+  box-sizing: border-box;
+}

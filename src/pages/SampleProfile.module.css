@@ -1,0 +1,237 @@
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 345px;
+  height: 280px;
+  overflow: hidden;
+}
+.markLin {
+  top: 0;
+  left: 0;
+  width: 128px;
+  height: 40px;
+}
+.addFriend,
+.div,
+.markLin {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  top: 17px;
+  left: 9px;
+  font-size: var(--font-size-5xs);
+  color: var(--color-darkgray);
+  width: 112px;
+  height: 40px;
+}
+.addFriend {
+  top: 6.2px;
+  left: calc(50% - 35.3px);
+  width: 70.1px;
+  height: 14.6px;
+}
+.addFriendWrapper {
+  position: absolute;
+  top: 54px;
+  left: 5px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-peachpuff);
+  width: 121px;
+  height: 27px;
+  font-size: var(--font-size-3xs);
+}
+.frame,
+.frame1,
+.frame2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 128px;
+  height: 81px;
+  overflow: hidden;
+}
+.frame,
+.frame1 {
+  top: 289px;
+  left: 107px;
+  width: 131px;
+}
+.frame {
+  top: 46px;
+  left: 24px;
+  width: 345px;
+  height: 370px;
+}
+.currentTags,
+.pastTags {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 40px;
+}
+.currentTags {
+  top: 392px;
+  left: 50px;
+  width: 154px;
+}
+.rfyVariant1Child,
+.rfyVariant1Inner,
+.rfyVariant1Item {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 90px;
+  height: 135px;
+  object-fit: cover;
+  z-index: 0;
+}
+.rfyVariant1Inner,
+.rfyVariant1Item {
+  z-index: 1;
+}
+.rfyVariant1Inner {
+  z-index: 2;
+}
+.recommendedForYou {
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  left: 46px;
+  display: none;
+  z-index: 3;
+}
+.recommendedForYou1,
+.rfyVariant1 {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-22xl) var(--padding-27xl);
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-arial-rounded-mt-bold);
+}
+.recommendedForYou1 {
+  top: 175px;
+}
+.frame4,
+.frame5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 426px;
+  height: 432px;
+  overflow: hidden;
+}
+.frame4 {
+  width: 427px;
+}
+.iconographyCaesarzkn {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  z-index: 0;
+}
+.iconographyCaesarzkn1,
+.iconographyCaesarzkn2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 1;
+}
+.iconographyCaesarzkn2 {
+  z-index: 2;
+}
+.bottomNavBarChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 74px;
+  left: 35px;
+  width: 38px;
+  height: 4px;
+  z-index: 3;
+}
+.bottomNavBar {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-44xl);
+}
+.bottomNavBarWrapper {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 175.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+}
+.frame6 {
+  position: absolute;
+  top: 671px;
+  left: 38px;
+  width: 351px;
+  height: 108px;
+  overflow: hidden;
+}
+.frame3,
+.frame7,
+.image3Icon {
+  position: absolute;
+  height: 135px;
+}
+.image3Icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 90px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frame3,
+.frame7 {
+  top: 437px;
+  left: 50px;
+  width: 327px;
+  overflow: hidden;
+}
+.frame3 {
+  top: 469px;
+  left: -17px;
+  width: 427px;
+  height: 779px;
+  text-align: left;
+}
+.sampleProfile {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1259px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-nico-moji);
+}
